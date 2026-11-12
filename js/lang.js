@@ -2,7 +2,7 @@
   var KEY = "kiaa-forum-2026-lang";
   var titles = {
     zh: "2026 KIAA Forum：面向SKA的星际介质科学",
-    en: "2026 KIAA Forum: Interstellar Medium Science for the SKA"
+    en: "KIAA Forum 2026: Interstellar Medium Science with the SKA"
   };
   var qrAlt = {
     zh: "会议注册二维码",
