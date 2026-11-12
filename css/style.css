@@ -158,7 +158,7 @@ a:hover { color: var(--accent); }
 .hero-blur {
   position: absolute;
   inset: 0;
-  background: url("../images/milky-way.jpg") 72% 46% / cover no-repeat;
+  background: url("../images/ska.jpg") 58% 42% / cover no-repeat;
 }
 
 .hero-blur {
@@ -171,7 +171,7 @@ a:hover { color: var(--accent); }
 .hero-shade {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(6, 10, 16, 0.88) 0%, rgba(6, 10, 16, 0.72) 30%, rgba(6, 10, 16, 0.22) 54%, rgba(6, 10, 16, 0.05) 72%, rgba(6, 10, 16, 0.28) 100%);
+  background: linear-gradient(90deg, rgba(18, 12, 8, 0.82) 0%, rgba(18, 12, 8, 0.55) 28%, rgba(18, 12, 8, 0.12) 52%, rgba(18, 12, 8, 0) 70%);
 }
 
 .hero {
@@ -191,8 +191,9 @@ a:hover { color: var(--accent); }
 }
 
 .hero-credit a {
-  color: rgba(246, 243, 236, 0.8);
+  color: rgba(246, 243, 236, 0.88);
   text-decoration: none;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.7);
 }
 
 .hero-credit a:hover { color: white; }
@@ -368,7 +369,8 @@ p { margin: 0 0 0.9rem; }
 .names {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.15rem 0.7rem;
+  gap: 0.35rem 0.9rem;
+  margin: 0.2rem 0 0;
 }
 
 .names span { white-space: nowrap; }
@@ -422,7 +424,7 @@ footer p { margin: 0.2rem 0; }
   .site-nav a { white-space: nowrap; }
 
   .hero-shade {
-    background: linear-gradient(180deg, rgba(6, 10, 16, 0.86) 0%, rgba(6, 10, 16, 0.62) 58%, rgba(6, 10, 16, 0.4) 100%);
+    background: linear-gradient(180deg, rgba(18, 12, 8, 0.8) 0%, rgba(18, 12, 8, 0.48) 62%, rgba(18, 12, 8, 0.22) 100%);
   }
 
   .hero-blur {
